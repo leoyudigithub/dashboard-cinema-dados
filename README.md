@@ -37,6 +37,26 @@ O dashboard foi estruturado para responder a questionamentos cruciais sobre o co
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes ferramentas, linguagens e bibliotecas:
+
+### 🔌 API
+* **[TMDB API (The Movie Database)](https://www.themoviedb.org/documentation/api):** Fonte oficial de dados para extração de metadados, notas, popularidade e informações dos filmes.
+
+### 🐍 Linguagem
+* **Python** (Versão 3.x) — Linguagem principal utilizada para a extração, tratamento dos dados e construção do dashboard.
+
+### 📚 Bibliotecas Python
+* **[Pandas](https://pandas.pydata.org/):** Manipulação, limpeza e tratamento dos dados extraídos da API.
+* **[Requests](https://docs.python-requests.org/):** Consumo e integração com os endpoints da API do TMDB.
+* **[Streamlit](https://streamlit.io/):** Construção e hospedagem da interface interativa do dashboard.
+* **[Matplotlib](https://matplotlib.org/):** Criação dos gráficos analíticos para visualização do contraste entre popularidade e qualidade.
+* **[Numpy](https://numpy.org/):** Criação dos gráficos analíticos para visualização do contraste entre popularidade e qualidade.
+
+
+---
+
 ## 🚀 Como Executar o Projeto
 *(Instruções para clonar o repositório, instalar dependências e rodar o dashboard — adapte conforme a stack utilizada, ex: Python/Streamlit, Power BI, Tableau, etc.)*
 
