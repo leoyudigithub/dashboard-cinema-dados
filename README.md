@@ -52,7 +52,7 @@ O projeto foi desenvolvido utilizando as seguintes ferramentas, linguagens e bib
 * **[Requests](https://docs.python-requests.org/):** Consumo e integração com os endpoints da API do TMDB.
 * **[Streamlit](https://streamlit.io/):** Construção e hospedagem da interface interativa do dashboard.
 * **[Matplotlib](https://matplotlib.org/):** Criação dos gráficos analíticos para visualização do contraste entre popularidade e qualidade.
-* **[Numpy](https://numpy.org/):** Criação dos gráficos analíticos para visualização do contraste entre popularidade e qualidade.
+* **[Numpy](https://numpy.org/):** Realização de operações matemáticas e métricas estatísticas dos dados análisados.
 
 
 ---
