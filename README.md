@@ -1,39 +1,37 @@
-# Popularidade de Filmes em Contraste à Sua Qualidade
+# Economia e Recepção da Indústria Cinematográfica: Lucro, Avaliações e o Cinema Brasileiro no Cenário Global
 
 ## 🎬 Sobre o Projeto
-Este projeto consiste no desenvolvimento de um **Dashboard de Análise de Dados** focado em explorar a relação entre o sucesso comercial/popularidade de produções cinematográficas e a sua real qualidade técnica e artística percebida pelo público. 
+Este projeto consiste no desenvolvimento de uma pesquisa e **Dashboard de Análise de Dados** focado na dimensão econômica e na recepção da indústria cinematográfica global ao longo do tempo.
 
 ### Justificativa da Escolha
-No ecossistema do cinema atual, é comum observarmos blockbusters com enorme apelo mercadológico e bilheterias estrondosas, mas que dividem opiniões quanto à sua qualidade narrativa. Em contrapartida, obras aclamadas pela crítica ou pelo público nichado passam frequentemente despercebidas pelo grande público. A equipe escolheu este tema para investigar empiricamente essa dicotomia, utilizando métricas de dados para entender se o "hype" realmente reflete o valor percebido das produções ou se vivemos em uma era dominada puramente pelo marketing de massa.
+A indústria do cinema movimenta bilhões de dólares anualmente, operando em uma dinâmica complexa onde grandes orçamentos nem sempre garantem rentabilidade ou aclamação do público. Além disso, há uma forte assimetria no mercado global: enquanto Hollywood domina as bilheterias mundiais, indústrias regionais e emergentes, como o cinema brasileiro, enfrentam diversos desafios de distribuição e econômicos. A equipe escolheu este tema para investigar empiricamente como o investimento financeiro se traduz em retorno econômico e aprovação do público ao longo das décadas, além de traçar um raio-X comparativo do posicionamento do Brasil frente aos grandes polos cinematográficos internacionais.
 
 ---
 
 ## 📊 Fonte de Dados e Informações Utilizadas
-Os dados que alimentam este dashboard foram extraídos da **TMDB (The Movie Database API)**. 
+Os dados que alimentam este projeto foram extraídos da **TMDB (The Movie Database API)**.
 
-O conjunto de dados abrange variáveis essenciais para a análise comparativa:
-* **Popularidade:** Métrica interna da plataforma baseada em visualizações diárias, votos, popularidade de atores, data de lançamento, entre outros fatores.
-* **Média de Votos (`vote_average`):** A nota média atribuída pelos usuários da plataforma aos filmes.
-* **Quantidade de Votos (`vote_count`):** O volume total de avaliações recebidas, servindo como termômetro para engajamento e alcance.
-* **Gênero (`genres`):** Categoria temática dos filmes (ex: Ação, Drama, Comédia, Sci-Fi).
-* **Ano de Lançamento (`release_date`):** A temporalidade da obra, permitindo análises históricas e de longevidade.
+O conjunto de dados abrange variáveis financeiras, temporais, geográficas e de recepção:
+* **Orçamento (`budget`):** Valor total investido na produção do filme (em USD).
+* **Bilheteria (`revenue`):** Arrecadação global bruta obtida nas exibições (em USD).
+* **Média de Votos (`vote_average`):** Nota média de avaliação atribuída pelos usuários da plataforma.
+* **Quantidade de Votos (`vote_count`):** Volume total de avaliações recebidas, medindo o engajamento do público.
+* **País de Origem (`production_countries`):** País ou países responsáveis pela produção da obra.
+* **Ano de Lançamento (`release_date`):** Data de estreia, permitindo análises temporais por décadas.
+* **Gênero (`genres`):** Categorização temática dos filmes.
 
 ---
 
 ## ❓ Perguntas-Chave (Business Questions)
-O dashboard foi estruturado para responder a questionamentos cruciais sobre o comportamento do público e da indústria cinematográfica:
 
 ### Questão Central
-* **Filmes mais populares são necessariamente mais bem avaliados pelo público?** 
-  *(Investigação da correlação direta entre o índice de popularidade e a nota média).*
+* **Como os valores de orçamento e bilheteria se convertem em lucro real ao longo do tempo, e de que forma o investimento financeiro se relaciona com a recepção do público nas diferentes regiões do mundo?**
 
 ### Questões Secundárias
-* **Filmes com muitos votos têm avaliações médias diferentes dos filmes com poucos votos?** 
-  *(Análise de viés de sobrevivência, efeito manada ou amostragem).*
-* **Quais gêneros apresentam maior discrepância entre popularidade e nota?** 
-  *(Identificação de quais categorias cinematográficas geram mais polarização).*
-* **Filmes antigos continuam recebendo atenção?** 
-  *(Análise do engajamento e do fluxo de votos em obras clássicas ou de décadas anteriores em comparação aos lançamentos recentes).*
+* **Evolução do Lucro e ROI:** Como a rentabilidade dos filmes (lucro absoluto e retorno sobre o investimento - ROI) evoluiu ao longo das décadas?
+* **Orçamento vs. Qualidade Percebida:** Filmes com orçamentos astronômicos garantem notas mais altas do público, ou existe um ponto de retorno decrescente?
+* **Panorama Brasil vs. Mundo:** Como o mercado cinematográfico brasileiro se posiciona em termos de orçamento médio, bilheteria e avaliação do público em comparação com grandes indústrias (ex: Hollywood, cinema europeu)?
+* **Desempenho Comercial vs. Crítica Popular:** A relação entre bilheteria e nota de usuários varia significativamente entre filmes nacionais e produções internacionais?
 
 ---
 
